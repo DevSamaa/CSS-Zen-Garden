@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+
+
+html {
+  margin: 0;
+  padding: 0;
+  }
+
+body{
+  font-family: Gayathri;
+  background: url(scott-webb-hDyO6rr3kqk-unsplash.jpg); 
+  background-size: cover;
+  background-position: center;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro h1{
+  /* background-color: aqua; */
+}
+.intro {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* background-color: #8A4F7D; */
+}
+
+.main {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #88A096;
+}
+
+.sidebar {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  background-color: #E7BEC1;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.design-selection {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  /* border: 3px solid black; */
+}
+
+.design-archives {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  /* border: 3px solid black; */
+}
+
+.wrapper h3 {
+  margin-left: 20px;
+}
+
+.zen-resources {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  /* border: 3px solid black; */
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+header h2 {
+  margin: 0px;
+  background:#B48FAC;
+  padding-top: 20px;
+}
+
+.summary {
+  background: #B48FAC;
+}
+
+.summary p {
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+.preamble {
+  background: #B48FAC;
+}
+
+.preamble h3 {
+  margin: 0px;
+}
